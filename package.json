@@ -1,0 +1,23 @@
+{
+  "name": "genea",
+  "version": "0.1.0",
+  "description": "\u001b[2~Genetic Algorithm for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livoras/genea.git"
+  },
+  "keywords": [
+    "Genetic",
+    "Algorithm"
+  ],
+  "author": "Livoras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/livoras/genea/issues"
+  },
+  "homepage": "https://github.com/livoras/genea#readme"
+}
