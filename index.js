@@ -81,8 +81,8 @@ class Genea {
       newPopulations.push(child)
     }
     this.populations = newPopulations
-    this.onGeneration(this.currentGeneration, this.populations)
     this.makeFitnesses()
+    this.onGeneration(this.currentGeneration, this.populations)
     this.select()
   }
 
