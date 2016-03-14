@@ -1,6 +1,6 @@
 {
   "name": "genea",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "\u001b[2~Genetic Algorithm for JavaScript",
   "main": "index.js",
   "scripts": {
