@@ -97,7 +97,7 @@ class Genea {
 
   mutate(child) {
     let mutateProbability = Math.random()
-    if (mutateProbability < this.mutateProbability) return child
+    if (mutateProbability > this.mutateProbability) return child
     let pos = Math.floor(Math.random() * this.geneLength)
     let arr = child.split("")
     arr[pos] = +child[pos] ^ 1
